@@ -27,9 +27,6 @@ before_action :correct_user, only: [:edit,:update]
     else
     render:edit
     end
-
-
-
   end
 
   def create
